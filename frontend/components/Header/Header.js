@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { APP_NAME } from '../../config';
 import {
     Navbar, 
     NavbarBrand, 
@@ -29,7 +30,7 @@ const Header = () => {
                 light
             >
                 <NavbarBrand href="/">
-                    reactstrap
+                    {APP_NAME}
                 </NavbarBrand>
                 <NavbarToggler onClick={handleClick} />
                 <Collapse navbar isOpen={isOpen}>
