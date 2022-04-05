@@ -1,7 +1,9 @@
+import Header from '../Header/Header';
+
 const Layout = ({children}) => {
     return (
         <>
-            <h1>Header</h1>
+            <Header/>
             {children}
             <h1>Footer</h1>
         </>
